@@ -26,3 +26,10 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Default homebrew installation to /Applications
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
+
+# Enable colorized ouput. It makes your folders and symlinks look purdy.
+export CLICOLOR=1
+
