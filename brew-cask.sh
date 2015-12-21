@@ -30,6 +30,7 @@ brew cask install sublime-text
 brew cask install keyboard-maestro
 brew cask install seil
 brew cask install karabiner
+brew cask install clipmenu
 
 # browsers
 brew cask install chromium
