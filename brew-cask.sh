@@ -31,6 +31,7 @@ brew cask install keyboard-maestro
 brew cask install seil
 brew cask install karabiner
 brew cask install clipmenu
+brew cask install caffeine
 
 # browsers
 brew cask install chromium
