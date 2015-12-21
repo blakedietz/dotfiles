@@ -1,5 +1,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+# Add gnubin to  the `$PATH` for gnu tools that were installed via homebrew.
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# Add gnuman entries to the manpath for tools that were installed via homebrwe.
+# MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
