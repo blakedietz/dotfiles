@@ -49,6 +49,7 @@ brew cask install whatpulse
 
 # Not on cask but I want regardless.
 # airmail2.5
+# Dash
 # monosnap
 # xcode
 # pocket

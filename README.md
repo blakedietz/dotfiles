@@ -72,6 +72,12 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ```bash
 ./.osx
 ```
+### Install Homebrew casks
+When setting up a new Mac, you will most definitely want to install default programs to do this run
+
+```bash
+./brew-cask.sh
+```
 
 ### Install Homebrew formulae
 
