@@ -29,7 +29,7 @@ brew cask install sublime-text
 #workflow
 brew cask install keyboard-maestro
 brew cask install seil
-brwe cask install karabiner
+brew cask install karabiner
 
 # browsers
 brew cask install chromium
