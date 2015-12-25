@@ -104,3 +104,31 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+" Go down a line for softwrapping
+:nmap j gj
+:nmap k gk
+
+" Improve buffering
+:nmap <C-n> :bnext<CR>
+:nmap <C-p> :bprev<CR>
+
+" Pathogen Packages
+execute pathogen#infect()
+
+" Nerdtree Configurations
+map <D-1> :NERDTreeToggle<CR>
+" Automatically open NERDTree when vim is opened
+autocmd vimenter * NERDTree
+" Open a NERDTree automatically when vim starts up if no files were specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+let NERDTreeShowHidden=1
+
+
+" Airline Configurations
+" Have to patch fonts in order for the nice angular tag like symbols
+let g:airline_powerline_fonts = 1
+set laststatus=2
+:let g:airline_theme='solarized'
+:let g:airline#extensions#tabline#enabled = 1
