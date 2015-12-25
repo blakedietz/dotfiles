@@ -105,7 +105,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-# TABS, SPACES, TABS, SPACES!!!!!
+" TABS, SPACES, TABS, SPACES!!!!!
+" tab witdth is defined in .editorconfig
 set expandtab
 
 " Go down a line for softwrapping
