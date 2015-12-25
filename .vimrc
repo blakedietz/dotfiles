@@ -105,6 +105,9 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
+# TABS, SPACES, TABS, SPACES!!!!!
+set expandtab
+
 " Go down a line for softwrapping
 :nmap j gj
 :nmap k gk
