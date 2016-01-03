@@ -1,13 +1,8 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
-# Add gnubin to  the `$PATH` for gnu tools that were installed via homebrew.
-# TODO : This currently causes issues with ls coloring.
-# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-
-# Add gnuman entries to the manpath for tools that were installed via homebrew.
-# export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Load the shell dotfiles, and then some:
+# TODO : need to get this updated
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
@@ -52,3 +47,5 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+bind -f ~/.inputrc
