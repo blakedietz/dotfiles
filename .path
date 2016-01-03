@@ -5,5 +5,11 @@ export PATH=/usr/local/bin:$PATH;
 # TODO : This currently causes issues with ls coloring.
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
+# Homebrew related path extension
+# Warning: Homebrew's sbin was not found in your PATH but you have installed
+# formulae that put executables in /usr/local/sbin.
+# Consider setting the PATH for example like so
+echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
+
 # Add gnuman entries to the manpath for tools that were installed via homebrew.
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
