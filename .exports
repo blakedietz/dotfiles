@@ -19,6 +19,8 @@ export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 # Omit duplicates and commands that begin with a space from history.
 export HISTCONTROL='ignoreboth';
+# Add a timestamp to bash history.
+export HISTTIMEFORMAT="%y/%m/%d %T ";
 
 # Prefer US English and use UTF-8.
 export LANG='en_US.UTF-8';
@@ -31,8 +33,8 @@ export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
 # Default homebrew installation to /Applications
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom";
 
 # Enable colorized ouput. It makes your folders and symlinks look purdy.
-export CLICOLOR=1
-
+# TODO : could do 256 color here also
+export CLICOLOR=1;
