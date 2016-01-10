@@ -155,3 +155,7 @@ alias cl="clear; ls"
 # Stop fuckups
 alias lc="clear; ls"
 alias sl="ls"
+
+# Every good programmer has notes
+alias n="cd ~/notes"
+
