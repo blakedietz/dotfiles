@@ -149,9 +149,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Shortcuts
-alias la='ls -aF'
-alias ll='ls -laF'
-alias ls='ls -F'
 alias c="clear;"
 alias cl="clear; ls"
 
