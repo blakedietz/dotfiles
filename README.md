@@ -1,6 +1,4 @@
-# Mathias’s dotfiles
-
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+![Imgur](http://i.imgur.com/Lb0Gqs7.png)
 
 ## Installation
 
@@ -94,11 +92,15 @@ Suggestions/improvements
 
 ## Author
 
+
+
+## Thanks to…
+
 | [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|
 | [Mathias Bynens](https://mathiasbynens.be/) |
 
-## Thanks to…
+Mathias for your dank dotfiles man : https://github.com/mathiasbynens/dotfiles
 
 * @ptb and [his _OS X Lion Setup_ repository](https://github.com/ptb/Mac-OS-X-Lion-Setup)
 * [Ben Alman](http://benalman.com/) and his [dotfiles repository](https://github.com/cowboy/dotfiles)
