@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-# to maintain cask .... 
-#     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup` 
+# to maintain cask ....
+#     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
 # Install native apps
 
@@ -25,6 +25,7 @@ brew cask install intellij-idea
 brew cask install iterm2
 brew cask install sequel-pro
 brew cask install sublime-text
+brew cask install p4merge
 
 #workflow
 brew cask install keyboard-maestro
