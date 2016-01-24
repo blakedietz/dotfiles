@@ -43,6 +43,7 @@ brew install homebrew/dupes/screen
 
 # Install node tools
 brew install nvm
+brew install svn
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng

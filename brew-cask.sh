@@ -13,7 +13,6 @@ brew tap caskroom/versions
 brew cask install dropbox
 brew cask install flux
 brew cask install gyazo
-brew cask install 1password
 brew cask install rescuetime
 brew cask install slack
 brew cask install spectacle
@@ -51,6 +50,7 @@ brew cask install whatpulse
 # brew cask install total spaces
 
 # Not on cask but I want regardless.
+# 1password
 # airmail2.5
 # Dash
 # monosnap
