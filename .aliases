@@ -159,3 +159,6 @@ alias sl="ls"
 # Every good programmer has notes
 alias n="cd ~/notes"
 
+# Alias config for git operations
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+

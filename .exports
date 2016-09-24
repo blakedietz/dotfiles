@@ -15,7 +15,7 @@ export NVM_DIR=~/.nvm
 export PYTHONIOENCODING='UTF-8';
 
 # After each command, append to the history file and reread it
-export PROMPT_COMMAND=”${PROMPT_COMMAND:+$PROMPT_COMMAND$’\n’}history -a; history -c; history -r”;
+# export PROMPT_COMMAND=”${PROMPT_COMMAND:+$PROMPT_COMMAND$’\n’}history -a; history -c; history -r”;
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
