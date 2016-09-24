@@ -9,3 +9,5 @@ touch ./applications.txt
 
 ls -al ~/Applications > applications.txt
 ls -al /Applications > applications.txt
+
+zip -r os-configurations.zip applications.txt ./dotfiles-backup/ applications.txt
