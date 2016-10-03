@@ -1,8 +1,5 @@
 ![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)
 
-[![Join the chat at https://gitter.im/mhinz/mhinz](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mhinz/mhinz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mhinz/vim-signify/master/LICENSE)
-
 ---
 
 Signify (or just Sy) is a quite unobtrusive plugin. It uses signs to indicate
@@ -19,7 +16,7 @@ implements features that work for _all_ supported VCS.
 **Features:**
 
 - supports git, mercurial, darcs, bazaar, subversion, cvs, rcs, fossil, accurev,
-  perforce
+  perforce, tfs
 - quick jumping between blocks of changed lines ("hunks")
 - apart from signs there is also optional line highlighting
 - preserves signs from other plugins
