@@ -7,15 +7,15 @@ export NODE_REPL_HISTORY=~/.node_history;
 export NODE_REPL_HISTORY_SIZE='32768';
 # Use sloppy mode by default, matching web browsers.
 export NODE_REPL_MODE='sloppy';
-# Link to brew nvm
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
+# Export nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
  #Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
 # After each command, append to the history file and reread it
-export PROMPT_COMMAND=”${PROMPT_COMMAND:+$PROMPT_COMMAND$’\n’}history -a; history -c; history -r”;
+# export PROMPT_COMMAND=”${PROMPT_COMMAND:+$PROMPT_COMMAND$’\n’}history -a; history -c; history -r”;
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
