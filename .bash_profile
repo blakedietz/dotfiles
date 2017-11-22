@@ -53,4 +53,6 @@ test -e ~/.dircolors && \
    eval `dircolors -b ~/.dircolors`
 
 
-~/Dropbox/projects/tsheets-ascii-art/full-logo-color.sh
+~/Dropbox/projects/tsheets/personal-dev/tsheets-ascii-art/full-logo-stroked-circle/ascii-color.sh
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
