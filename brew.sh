@@ -41,10 +41,6 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-# Install node tools
-brew install nvm
-brew install svn
-
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
 # brew install bfg
@@ -87,6 +83,10 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 brew install kdiff3
+brew intall ripgrep
+brew install fzf
+brew install jq
+brew install tmux
 
 # Remove outdated versions from the cellar.
 brew cleanup
