@@ -51,3 +51,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Update dircolors for solarized dark
 test -e ~/.dircolors && \
    eval `dircolors -b ~/.dircolors`
+
+~/Dropbox/projects/tsheets/tsheets-ascii-art/full-logo-stroked-circle/ascii-color.sh
+
+source ~/.iterm2_shell_integration.`basename $SHELL`
