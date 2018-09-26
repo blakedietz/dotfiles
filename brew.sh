@@ -48,6 +48,7 @@ brew install git-lfs
 brew install imagemagick --with-webp
 brew install jq
 brew install mtr
+brew install nvm
 brew install p7zip
 brew install pigz
 brew install pv
