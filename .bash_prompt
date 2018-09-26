@@ -1,8 +1,7 @@
-# source of modified code : https://github.com/milkbikis/powerline-shell
 function _update_ps1() {
-    PS1="$(~/.powerline-shell/powerline-shell.py --cwd-mode fancy $? 2> /dev/null)"
+    PS1=$(powerline-shell $?)
 }
 
-if [ "$TERM" != "linux" ]; then
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
