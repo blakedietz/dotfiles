@@ -42,24 +42,27 @@ brew install homebrew/php/php56 --with-gmp
 
 # Install other useful binaries.
 brew install ack
+brew install ag
 brew install fzf
+brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install jq
 brew install mtr
 brew install nvm
+brew install nvim
 brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
+brew install ripgrep
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install tmux
 brew install tree
 brew install webkit2png
 brew install zopfli
-brew install ripgrep
 
 # Remove outdated versions from the cellar.
 brew cleanup
