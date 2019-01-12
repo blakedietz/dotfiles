@@ -42,3 +42,6 @@ export CLICOLOR=1;
 
 # https://github.com/seebi/dircolors-solarized
 export TERM=xterm-256color        # for common 256 color terminals (e.g. gnome-terminal)
+
+export PATH="/Users/bdietz/.deno/bin":\$PATH
+
