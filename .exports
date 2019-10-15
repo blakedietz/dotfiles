@@ -35,7 +35,7 @@ export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
 # Default homebrew installation to /Applications
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom";
+export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Enable colorized ouput. It makes your folders and symlinks look purdy.
 export CLICOLOR=1;

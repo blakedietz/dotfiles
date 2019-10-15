@@ -44,6 +44,7 @@ brew install homebrew/php/php56 --with-gmp
 brew install ack
 brew install ag
 brew install fzf
+brew install elm
 brew install ffmpeg
 brew install git
 brew install git-lfs
@@ -71,3 +72,4 @@ brew install docker-machine-driver-xhyve
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
