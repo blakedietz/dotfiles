@@ -63,6 +63,11 @@ brew install tmux
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install docker
+brew install docker-compose
+brew install docker-machine
+brew install xhyve
+brew install docker-machine-driver-xhyve
 
 # Remove outdated versions from the cellar.
 brew cleanup
